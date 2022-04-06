@@ -1,0 +1,186 @@
+body {
+  font-family: "Nunito";
+  font-size: 20px;
+  margin: 0;
+  background-color: ghostwhite;
+  width: 100%;
+}
+
+header {
+  /* position: fixed; */
+  width: 100%;
+  background-color: gray;
+  /* z-index: 100; */
+}
+
+header nav {
+  display: block;
+}
+
+.fornav {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.fornav ul {
+  display: flex;
+}
+
+.fornav li {
+  padding-right: 2rem;
+  list-style: none;
+}
+
+.fornav a {
+  /* vertical-align: bottom; */
+  line-height: 2;
+  font-size: 1rem;
+  color: goldenrod;
+}
+
+.fornav .logo {
+  flex: 1;
+}
+
+.fornav img {
+  width: 5rem;
+  padding-left: 1rem;
+  border-radius: 10%;
+}
+
+@media only screen and (max-width: 640px) {
+  .fornav {
+    display: block;
+    text-align: center;
+  }
+}
+
+.headline {
+  display: flex;
+  height: 30rem;
+  background-image: url(./photos/fit1.jpg);
+  display: block;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.headline .name {
+  position: relative;
+  padding: 0.5rem;
+  top: 250px;
+  text-align: center;
+  color: aliceblue;
+  /* left: 10%; */
+  /* right: 30%; */
+  /* margin-top: 10rem; */
+  background-color: teal;
+}
+
+.mantra {
+  /* display: flex; */
+  padding: 0 1rem;
+  /* margin: 0.5rem auto; */
+}
+
+.mantra h2 {
+  top: 20px;
+  /* bottom: 200px; */
+  color: rgb(9, 89, 104);
+}
+
+@media only screen and (max-width: 640px) {
+  .headline {
+    display: block;
+    text-align: center;
+  }
+
+  .todo {
+    display: block;
+    text-align: center;
+  }
+
+  .gallery {
+    display: block;
+    text-align: center;
+  }
+
+  .footnav {
+    display: block;
+    text-align: center;
+  }
+}
+
+.todo {
+  padding: 1rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.todo a {
+  color: goldenrod;
+}
+
+.gallery {
+  padding: 1rem;
+  background-color: gray;
+}
+
+.gallery .content {
+  /* padding: 0.62rem; */
+  margin-bottom: 1em;
+}
+
+.gallery .content h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.gallery .content h3 {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+}
+
+.gallery .ourgallery {
+  display: flex;
+  max-width: 100%;
+  padding: 0 1%;
+}
+
+.pics {
+  overflow: hidden;
+}
+
+.pics img {
+  display: block;
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+}
+
+.footnav {
+  padding-top: 1rem;
+  background-color: teal;
+  color: thistle;
+}
+
+.footnav ul {
+  display: flex;
+}
+
+.footnav li {
+  padding-right: 2rem;
+  list-style: none;
+}
+
+.footnav a {
+  /* vertical-align: bottom; */
+  line-height: 2;
+  font-size: 1rem;
+  color: goldenrod;
+}
